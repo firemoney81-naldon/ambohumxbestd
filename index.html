@@ -1,23 +1,340 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
+
+  <!-- Schema.org 구조화 데이터 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/cancer-premium-waiver"
+    },
+    "headline": "2026년 암보험 납입면제 완벽 가이드: 조건, 장단점, 순위 비교",
+    "description": "암보험 납입면제란? 2026년 최신 정보를 바탕으로 납입면제 조건, 보험료 절감 효과, 장단점 분석, 보험사별 비교 순위까지 전문가가 상세히 알려드립니다. 암보험 가입 시 필수 확인 사항입니다.",
+    "image": [
+      "https://www.example.com/images/premium-waiver-main.jpg"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "보험 전문가 그룹"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "보험 정보 센터",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.example.com/images/logo.png"
+      }
+    },
+    "datePublished": "2026-01-10",
+    "dateModified": "2026-01-10",
+    "keywords": "암보험납입면제, 암보험, 보험료납입면제, 납입면제조건, 납입면제장단점, 암보험순위, 암보험비교, 저렴한암보험, 암보험추천, 2026년암보험"
+  }
+  </script>
+
+  <link rel="canonical" href="https://www.example.com/cancer-premium-waiver">
+
+  <!-- 스타일링 -->
+  <style>
+    body { font-family: 'Malgun Gothic', '맑은 고딕', sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.8; background-color: #f7f9fc; }
+    header { background-color: #ffffff; padding: 20px 15px; border-bottom: 1px solid #e0e0e0; text-align: center; }
+    main { max-width: 900px; margin: 20px auto; padding: 0 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
+    section { padding: 30px 0; border-bottom: 1px solid #eee; }
+    h1 { font-size: 2.2em; color: #2c3e50; font-weight: bold; margin-bottom: 10px; line-height: 1.4; }
+    h2 { font-size: 1.8em; color: #34495e; margin-top: 40px; margin-bottom: 20px; border-left: 5px solid #3498db; padding-left: 15px; }
+    h3 { font-size: 1.5em; color: #34495e; margin-top: 30px; margin-bottom: 15px; }
+    p { margin-bottom: 1em; text-align: justify; }
+    ul, ol { margin-bottom: 1em; padding-left: 20px; }
+    ul li { margin-bottom: 0.5em; list-style-type: disc; }
+    a { color: #3498db; text-decoration: none; transition: color 0.3s; }
+    a:hover { color: #2980b9; text-decoration: underline; }
+    .nav-list { list-style: none; padding: 0; display: flex; justify-content: center; margin-top: 15px; gap: 20px; }
+    .nav-list a { color: #34495e; font-weight: bold; padding: 5px 10px; border-radius: 4px; background-color: #ecf0f1; transition: background-color 0.3s; }
+    .nav-list a:hover { background-color: #bdc3c7; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+    th { background-color: #ecf0f1; color: #333; font-weight: bold; }
+    .content-box { background-color: #f9f9f9; padding: 25px; border-radius: 6px; margin-bottom: 20px; border: 1px solid #eaeaea; }
+    .cta-button { display: inline-block; background-color: #e74c3c; color: #ffffff; padding: 15px 30px; font-size: 1.1em; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 20px; transition: background-color 0.3s; text-align: center; }
+    .cta-button:hover { background-color: #c0392b; }
+    .form-section { background-color: #ecf0f1; padding: 30px; border-radius: 8px; margin-top: 30px; }
+    .form-section label { display: block; margin-bottom: 8px; font-weight: bold; color: #34495e; }
+    .form-section input[type="text"], .form-section input[type="tel"], .form-section select { width: calc(100% - 20px); padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    .form-section .submit-btn { background-color: #3498db; color: #ffffff; border: none; padding: 12px 20px; cursor: pointer; border-radius: 4px; transition: background-color 0.3s; }
+    .form-section .submit-btn:hover { background-color: #2980b9; }
+    footer { text-align: center; padding: 20px; background-color: #34495e; color: #bdc3c7; font-size: 0.9em; margin-top: 40px; }
+    .internal-links { margin-bottom: 30px; background-color: #f0f8ff; padding: 20px; border-radius: 6px; }
+    .internal-links ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+    .internal-links li { margin-bottom: 5px; }
+    .internal-links a { font-weight: bold; color: #2c3e50; }
+    .info-box { background-color: #e8f7ff; padding: 15px; border-radius: 5px; border-left: 4px solid #3498db; margin-top: 15px; font-size: 0.95em; line-height: 1.6; }
+    .faq-item h3 { cursor: pointer; color: #34495e; background-color: #f9f9f9; padding: 15px; border-radius: 5px; border: 1px solid #ddd; margin-bottom: 10px; }
+    .faq-answer { display: none; padding: 15px; background-color: #ffffff; border: 1px solid #ddd; border-top: none; border-radius: 0 0 5px 5px; }
+    .graph-container { margin: 20px 0; background-color: #f9f9f9; padding: 20px; border-radius: 6px; }
+  </style>
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+  <header>
+    <h1>2026년 암보험 납입면제 완벽 가이드</h1>
+    <p>암보험 가입 시 <strong>납입면제</strong>는 왜 중요할까요? <strong>납입면제 조건</strong>, <strong>장단점 분석</strong>, <strong>보험사별 순위</strong>까지 상세하게 알려드립니다.</p>
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+      <ul class="nav-list">
+        <li><a href="#definition">납입면제란?</a></li>
+        <li><a href="#conditions">조건 및 범위</a></li>
+        <li><a href="#comparison">보험사 비교</a></li>
+        <li><a href="#proscons">장단점 분석</a></li>
+        <li><a href="#ranking">순위 및 추천</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+  </header>
+
+  <!-- 메인 콘텐츠 영역 -->
+  <main>
+    <!-- 자동완성 반영 문구 및 키워드 리스트 -->
+    <section class="internal-links">
+      <h2>핵심 검색어 분석 및 빠른 이동</h2>
+      <p>많은 분들이 궁금해하시는 <strong>암보험 납입면제</strong> 관련 검색어입니다. 원하는 정보를 바로 찾아보세요.</p>
+      <ul>
+        <li><a href="#condition-detail">납입면제 조건 자세히</a></li>
+        <li><a href="#premium-cost">보험료에 미치는 영향</a></li>
+        <li><a href="#company-comparison">보험사별 납입면제 비교</a></li>
+        <li><a href="#non-renewal">갱신형 vs 비갱신형 납입면제</a></li>
+        <li><a href="#small-cancer">소액암/유사암 납입면제</a></li>
+        <li><a href="#pros">납입면제의 장점</a></li>
+        <li><a href="#cons">납입면제의 단점</a></li>
+        <li><a href="#case-study">내돈내산 실제 후기 분석</a></li>
+        <li><a href="#g_ranking">2026년 암보험 순위</a></li>
+        <li><a href="#g_recommendation">암보험 추천 가이드</a></li>
+        <li><a href="#disclaimer">가입 전 유의사항</a></li>
+      </ul>
+    </section>
+
+    <!-- 섹션 1: 납입면제의 정의 및 중요성 -->
+    <section id="definition">
+      <h2>암보험 납입면제란 무엇이며 왜 중요할까요?</h2>
+      <p><strong>암보험 납입면제</strong>는 보험 가입자가 특정 조건(주로 암 진단)에 해당될 경우, 남은 보험료 납입 의무가 면제되는 기능입니다. 이는 암 발병 시 치료비 부담뿐만 아니라, 경제 활동 중단으로 인한 소득 상실까지 고려한 핵심적인 안전장치입니다. 보험료 납입 면제 기능을 선택하면 암 진단 이후에도 보험을 유지할 수 있으며, 특히 암 치료 기간 동안 발생하는 경제적 어려움을 크게 덜어줍니다. 2026년 현재, 많은 보험사들이 이 기능을 기본 특약으로 포함시키거나 선택 특약으로 제공하고 있습니다. 단순히 <strong>저렴한 암보험</strong>을 찾는 것도 중요하지만, 보장 기간 내내 안정적인 유지를 위해서는 납입면제 조건을 꼼꼼히 확인해야 합니다.</p>
+      
+      <h3>암 진단 후 보험료 납입 중단 시 문제점</h3>
+      <p>납입면제 기능이 없는 경우, 암 진단을 받고 치료를 시작하면 치료비와 생활비 지출이 급증합니다. 이로 인해 보험료 납입이 어려워지면 결국 보험이 해지될 수 있습니다. 보험이 해지되면 보장 역시 사라지기 때문에, 재발이나 전이 발생 시 추가적인 보장을 받을 수 없습니다. 따라서 <strong>납입면제</strong>는 암보험의 실효성을 높이는 가장 중요한 요소 중 하나로 평가받고 있습니다.</p>
+
+      <!-- 사용자 참여 유도 (첫 번째 폼) -->
+      <div class="form-section">
+        <h3>무료 1:1 암보험 납입면제 전문가 상담 신청</h3>
+        <p>나에게 맞는 납입면제 조건을 확인하고 싶으신가요? 2026년 최신 보험 상품을 전문가와 함께 비교해보세요.</p>
+        <form action="/submit-quote" method="post">
+          <label for="f_name1">이름</label><input type="text" id="f_name1" name="name" required>
+          <label for="f_phone1">연락처</label><input type="tel" id="f_phone1" name="phone" required>
+          <label for="f_age1">나이</label><select id="f_age1" name="age"><option value="">선택</option><script>for(let i=20; i<=70; i++) document.write(`<option value="${i}">${i}세</option>`);</script></select>
+          <button type="submit" class="submit-btn">납입면제 비교 상담 요청</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 섹션 2: 납입면제 조건 상세 분석 (핵심 키워드) -->
+    <section id="conditions">
+      <h2>핵심: 납입면제 조건과 범위 (2026년 기준)</h2>
+      <p><strong>납입면제 조건</strong>은 보험사마다 다르며, 2026년에는 상품이 더욱 다양해지면서 복잡해지고 있습니다. 조건을 제대로 이해하지 못하면 나중에 혜택을 받지 못할 수도 있으니 주의해야 합니다.</p>
+      
+      <h3 id="condition-detail">납입면제의 일반적인 조건 유형</h3>
+      <p><strong>암보험 납입면제</strong>는 주로 다음과 같은 경우에 적용됩니다.</p>
+      <ol>
+        <li><strong>암 진단 시 납입면제:</strong> 가장 일반적인 형태로, 가입한 암보험 약관에 따른 암(일반암, 고액암 등) 진단이 확정되면 남은 보험료 납입이 면제됩니다.</li>
+        <li><strong>특정 질병 진단 시 납입면제:</strong> 암뿐만 아니라 뇌졸중, 급성심근경색증 등 3대 질병 진단 시 납입면제를 제공하는 상품도 있습니다.</li>
+        <li><strong>장해 상태 시 납입면제:</strong> 상해 또는 질병으로 인해 일정 비율 이상의 장해를 입었을 경우 납입면제가 되는 조건도 있습니다.</li>
+      </ol>
+
+      <div class="info-box">
+        <h4>중요: 소액암 및 유사암 납입면제 여부 확인</h4>
+        <p>최근 <strong>암보험 상품</strong> 중 상당수는 <strong>소액암</strong>(갑상선암, 제자리암, 경계성종양 등) 진단 시에는 납입면제를 해주지 않는 경우가 많습니다. <strong>납입면제 조건</strong>에서 <strong>유사암</strong>이 제외되는지 반드시 확인해야 합니다. <strong>저렴한 곳</strong>이나 <strong>싼 곳</strong>만 찾다 보면 이 부분이 간과될 수 있습니다. 2026년 기준으로, 일부 보험사는 소액암 진단 시에도 납입면제를 해주는 특약을 제공하고 있지만, 이 경우 보험료가 다소 높게 책정될 수 있습니다.</p>
+      </div>
+
+      <h3 id="premium-cost">납입면제가 보험료에 미치는 영향 (평균 비용 분석)</h3>
+      <p><strong>납입면제 특약</strong>을 추가하면 <strong>암보험료</strong>가 상승하는 것은 불가피합니다. 하지만 그 증가 폭은 생각보다 크지 않을 수 있습니다. <strong>평균적인 납입면제 비용</strong>은 전체 보험료의 5%~10% 수준으로 알려져 있습니다. 예를 들어, 40세 남성이 5만원짜리 암보험에 가입할 경우, 납입면제 특약을 추가하면 2,500원~5,000원 정도의 추가 비용이 발생할 수 있습니다. 전문가들은 이 정도의 추가 비용으로 얻는 혜택(향후 수천만원의 납입금 면제)을 고려할 때, <strong>납입면제 장점</strong>이 <strong>납입면제 단점</strong>보다 훨씬 크다고 평가합니다.</p>
+
+      <!-- 그래프 예시: 납입면제 추가 여부에 따른 총 납입액 비교 -->
+      <div class="graph-container">
+        <h4>납입면제 유무에 따른 총 보험료 납입액 (예상)</h4>
+        <p><em>(단위: 백만원)</em></p>
+        <div style="width: 100%; height: 200px; display: flex; align-items: flex-end; justify-content: space-around; font-size: 0.9em;">
+          <div style="width: 20%; background-color: #f0f0f0; height: 100px; text-align: center; border: 1px solid #ddd; position: relative; border-radius: 4px;">
+            <p style="position: absolute; bottom: 105%; width: 100%;">납입면제 없음 (40세 남성, 20년 납)</p>
+            <p style="position: absolute; top: 50%; width: 100%; transform: translateY(-50%);">1200만원</p>
+          </div>
+          <div style="width: 20%; background-color: #3498db; height: 100px; text-align: center; border: 1px solid #ddd; position: relative; border-radius: 4px;">
+            <p style="position: absolute; bottom: 105%; width: 100%;">납입면제 있음 (암 진단 시)</p>
+            <p style="position: absolute; top: 50%; width: 100%; transform: translateY(-50%);">납입면제 금액</p>
+          </div>
+        </div>
+        <p style="margin-top: 20px;">*40세 남성이 45세에 암 진단을 받았을 경우, 남은 15년간의 보험료(월 5만원 기준, 900만원)가 면제됩니다.</p>
+      </div>
+    </section>
+
+    <!-- 섹션 3: 보험사별 납입면제 비교 및 장단점 분석 -->
+    <section id="comparison">
+      <h2>2026년 보험사별 납입면제 조건 비교 및 장단점 분석</h2>
+      <p><strong>암보험 상품</strong>을 선택할 때 가장 중요한 것은 <strong>보험사별 납입면제 조건 차이점</strong>을 파악하는 것입니다. 각 보험사마다 <strong>납입면제 대상</strong>을 다르게 설정하고 있으며, 이는 실제 혜택에 큰 영향을 미칩니다.</p>
+
+      <h3 id="company-comparison">주요 보험사별 납입면제 조건 비교 (예상)</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>A 보험사</th>
+            <th>B 보험사</th>
+            <th>C 보험사</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>납입면제 조건</strong></td>
+            <td>일반암 진단 시</td>
+            <td>일반암, 고액암 진단 시</td>
+            <td>일반암, 고액암, 3대 질병 진단 시</td>
+          </tr>
+          <tr>
+            <td><strong>소액암/유사암</strong></td>
+            <td>납입면제 제외</td>
+            <td>납입면제 제외</td>
+            <td>특약 가입 시 납입면제 가능</td>
+          </tr>
+          <tr>
+            <td><strong>납입기간 설정</strong></td>
+            <td>20년 납, 80세 만기</td>
+            <td>10년 납, 100세 만기</td>
+            <td>20년 납, 90세 만기</td>
+          </tr>
+          <tr>
+            <td><strong>보험료 수준</strong></td>
+            <td>중간</td>
+            <td>중간</td>
+            <td>높음</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>위 표에서 보듯이, <strong>납입면제 범위</strong>가 넓을수록(예: C 보험사) <strong>보험료</strong>는 상승합니다. 하지만 <strong>납입면제 장점</strong>을 극대화하려면 뇌혈관질환이나 허혈성심장질환 등 중대 질병 진단 시에도 납입면제를 받을 수 있는 상품을 고려하는 것이 좋습니다.</p>
+
+      <h3 id="pros">납입면제의 장점: 왜 가입해야 할까요?</h3>
+      <div class="content-box">
+        <ol>
+          <li><strong>경제적 부담 완화:</strong> 암 진단 후 치료에 집중해야 할 시기에 보험료 납입 의무가 사라져 심리적, 경제적 안정감을 줍니다.</li>
+          <li><strong>보험 유지력 강화:</strong> 소득 상실에도 불구하고 보장을 끝까지 유지할 수 있어 재발 위험에 대비할 수 있습니다.</li>
+          <li><strong>총 납입액 절감 효과:</strong> 특히 젊은 나이에 가입할수록 남은 납입 기간이 길어 납입면제를 통한 총 납입액 절감 효과가 커집니다.</li>
+        </ol>
+      </div>
+
+      <h3 id="cons">납입면제의 단점: 숨겨진 함정은 무엇일까요?</h3>
+      <div class="content-box">
+        <ol>
+          <li><strong>보험료 증가:</strong> 납입면제 특약은 추가 비용을 발생시킵니다. <strong>저렴한 곳</strong>을 찾는 소비자에게는 부담이 될 수 있습니다.</li>
+          <li><strong>갱신형 vs 비갱신형 차이:</strong> 갱신형 암보험의 경우, 갱신 시점에 보험료가 오를 수 있으며, 납입면제 조건이 불리하게 변경될 가능성도 있습니다. <strong>비갱신형 암보험</strong>을 선택하는 것이 납입면제 측면에서는 유리할 수 있습니다.</li>
+          <li><strong>면책기간 및 감액기간:</strong> <strong>납입면제</strong> 혜택에도 면책기간(가입 후 90일)과 감액기간(가입 후 1년 또는 2년)이 적용됩니다. 이 기간 동안 진단받을 경우 혜택이 제한되거나 아예 면제되지 않을 수 있습니다.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 섹션 4: 2026년 암보험 순위 및 추천 가이드 -->
+    <section id="ranking">
+      <h2>2026년 암보험 납입면제 순위와 추천 가이드</h2>
+      <p>수많은 <strong>암보험 상품</strong> 중에서 <strong>납입면제</strong> 기능을 갖춘 최적의 상품을 찾는 것은 쉽지 않습니다. 2026년 현재 시장 트렌드를 반영한 가입 팁과 <strong>순위</strong> 선정 기준을 제시합니다.</p>
+
+      <h3 id="g_ranking">암보험 순위 선정 기준: 납입면제 기능을 중심으로</h3>
+      <p>단순히 <strong>암보험 가격</strong>만으로 <strong>순위</strong>를 매기는 것은 위험합니다. <strong>납입면제</strong>를 포함한 보장 내용을 종합적으로 평가해야 합니다. 다음은 <strong>납입면제</strong> 기능을 기준으로 한 <strong>암보험 순위</strong> 선정 시 고려해야 할 요소들입니다.</p>
+      <ol>
+        <li><strong>납입면제 범위의 포괄성:</strong> 일반암 진단뿐만 아니라 뇌혈관질환, 허혈성심장질환, 1~5종 장해 등 다양한 중대 질병 진단 시에도 납입면제가 되는지 확인하세요.</li>
+        <li><strong>소액암/유사암 제외 여부:</strong> 유사암 진단 시에도 납입면제를 제공하는 상품이 있다면 <strong>납입면제 추천</strong> 상품으로 고려할 만합니다.</li>
+        <li><strong>보험료의 합리성:</strong> <strong>평균적인 보험료</strong>와 비교하여 납입면제 기능 추가에 대한 추가 비용이 합리적인지 검토해야 합니다.</li>
+        <li><strong>내돈내산 후기 반영:</strong> <strong>내돈내산 후기</strong>를 통해 실제 청구 사례와 보험사의 지급 기준을 확인하는 것도 중요합니다.</li>
+      </ol>
+
+      <h3 id="g_recommendation">가입 시 피해야 할 함정 및 추천 전략</h3>
+      <div class="info-box">
+        <h4>함정 1: 납입면제가 너무 까다로운 조건</h4>
+        <p>일부 상품은 "암 진단 및 50% 이상 장해 상태" 등 조건을 까다롭게 걸어두어 실제 혜택을 받기 어렵게 만듭니다. <strong>납입면제 조건</strong>이 복잡할수록 피하는 것이 좋습니다.</p>
+        <h4>함정 2: 갱신형 상품의 납입면제</h4>
+        <p>갱신형 상품은 갱신 시점에 보험료가 오르는 구조입니다. 납입면제를 받았다고 하더라도, 갱신이 이루어지지 않거나 조건이 변경될 수 있습니다.</p>
+        <h4>추천 전략: 비갱신형 + 포괄적 납입면제</h4>
+        <p>결론적으로, <strong>암보험 가입</strong> 시 <strong>비갱신형 상품</strong>을 선택하고, 납입면제 조건이 최대한 포괄적인 상품을 선택하는 것이 <strong>장기적인 관점에서 가장 유리한 선택</strong>입니다. <strong>납입면제 추천</strong> 상품을 찾을 때는 반드시 전문가의 조언을 받아보세요.</p>
+      </div>
+
+      <!-- 사용자 참여 유도 (두 번째 폼) -->
+      <div class="form-section">
+        <h3>2026년 암보험 납입면제 비교 견적 요청</h3>
+        <p>다양한 보험사의 납입면제 조건과 <strong>보험료</strong>를 비교하고, 나에게 가장 <strong>저렴한 곳</strong>을 찾아드립니다.</p>
+        <form action="/submit-quote" method="post">
+          <label for="f_name2">이름</label><input type="text" id="f_name2" name="name" required>
+          <label for="f_phone2">연락처</label><input type="tel" id="f_phone2" name="phone" required>
+          <label for="f_type2">희망하는 이사 유형</label><select id="f_type2" name="move_type"><option value="">선택</option><option value="general_cancer">일반암</option><option value="high_cancer">고액암</option><option value="3major">3대 질병</option></select>
+          <button type="submit" class="submit-btn">견적 요청하기</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 섹션 5: 자주 묻는 질문 (FAQ) -->
+    <section id="faq" class="faq">
+      <h2>자주 묻는 질문 (FAQ)</h2>
+      <div class="faq-item">
+        <h3 onclick="toggleAnswer(this)">Q1: 납입면제 기능을 선택하면 보험료가 얼마나 올라가나요?</h3>
+        <div class="faq-answer">
+          <p>A: <strong>납입면제</strong> 특약은 보험료에 영향을 미치지만, 그 폭은 상품과 보험사에 따라 다릅니다. 일반적으로 전체 보험료의 5~10% 수준에서 결정됩니다. <strong>평균적인 금액</strong>은 가입자의 나이, 성별, 건강 상태에 따라 달라지므로 정확한 <strong>예상 비용</strong>은 상담을 통해 확인하는 것이 좋습니다.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleAnswer(this)">Q2: <strong>납입면제</strong>와 <strong>보험료 할인</strong>은 어떤 차이점이 있나요?</h3>
+        <div class="faq-answer">
+          <p>A: <strong>보험료 할인</strong>은 주로 비흡연자 할인이나 건강체 할인처럼 가입 시점에 적용되는 혜택입니다. 반면 <strong>납입면제</strong>는 가입 후 특정 조건(암 진단) 발생 시 남은 보험료 납입 의무가 면제되는 기능입니다. <strong>납입면제</strong>는 보험 기간 전체에 걸친 재정적 안정성을 제공합니다.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleAnswer(this)">Q3: <strong>소액암</strong>이나 <strong>유사암</strong> 진단 시에도 납입면제가 되나요?</h3>
+        <div class="faq-answer">
+          <p>A: 많은 <strong>암보험 상품</strong>의 기본 <strong>납입면제 조건</strong>에서는 소액암(갑상선암, 제자리암 등) 진단 시 납입면제가 제외되는 경우가 많습니다. <strong>납입면제</strong>를 받고 싶다면 별도의 특약이나 <strong>납입면제 범위</strong>가 넓은 상품을 선택해야 합니다. 이는 <strong>보험사별 차이점</strong>이 가장 두드러지는 부분이므로 꼭 확인해야 합니다.</p>
+        </div>
+      </div>
+      <script>
+        function toggleAnswer(element) {
+          element.nextElementSibling.style.display = element.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+        }
+      </script>
+    </section>
+
+    <!-- 섹션 6: 신뢰성 확보를 위한 외부 링크 (E-A-T 확보) -->
+    <section>
+      <h2>공신력 있는 정보 출처 및 참고 자료</h2>
+      <p>본 페이지의 내용은 2026년 보험 시장 동향과 공신력 있는 기관의 자료를 기반으로 작성되었습니다. 더 자세한 정보는 다음 외부 사이트에서 확인할 수 있습니다.</p>
+      <ul>
+        <li><a href="https://www.fss.or.kr/" target="_blank">금융감독원 (FSS)</a>: 보험 상품 정보 및 소비자 유의사항 (정부 기관)</li>
+        <li><a href="https://www.klia.or.kr/" target="_blank">생명보험협회</a>: 생명보험 상품 비교 공시 (공신력 있는 기관)</li>
+        <li><a href="https://namu.wiki/w/%EC%95%94%EB%B3%B4%ED%97%98" target="_blank">나무위키 암보험 항목</a>: 암보험 관련 일반 정보 (대형 백과사전)</li>
+        <li><a href="https://www.e-insmarket.or.kr/" target="_blank">보험다모아</a>: 보험 상품 가격 비교 (정부 운영)</li>
+        <li><a href="https://www.kfb.or.kr/" target="_blank">금융위원회</a>: 금융 정책 및 규제 (정부 기관)</li>
+      </ul>
+    </section>
+
+    <!-- 섹션 7: 최종 Call to Action 및 정보 입력창 -->
+    <section id="contact">
+      <h2>나에게 맞는 암보험 납입면제 플랜 찾기</h2>
+      <p><strong>암보험 가입</strong>은 복잡합니다. 특히 <strong>납입면제 조건</strong>과 <strong>보험료</strong>를 최적화하는 것은 전문가의 도움이 필요합니다. <strong>내돈내산</strong>과 같은 후기를 바탕으로 <strong>납입면제</strong>가 제대로 작동하는지 확인하는 것이 중요합니다. 아래 상담 신청을 통해 <strong>2026년 최신 암보험 상품</strong>을 비교하고, 나에게 가장 적합한 <strong>저렴한 곳</strong>을 찾아보세요.</p>
+      <div class="form-section">
+        <h3>빠른 상담 신청 (2026년 최신 정보 반영)</h3>
+        <form action="/submit-quote" method="post">
+          <label for="f_name3">이름</label><input type="text" id="f_name3" name="name" required>
+          <label for="f_phone3">연락처</label><input type="tel" id="f_phone3" name="phone" required>
+          <label for="f_date3">상담 희망 시간</label><input type="date" id="f_date3" name="consult_date" required>
+          <label for="f_details3">추가 문의 사항 (납입면제 관련 궁금증 등)</label><textarea id="f_details3" name="details" rows="3"></textarea>
+          <button type="submit" class="submit-btn">견적 요청 및 상담 시작</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터 -->
+  <footer>
+    <p>&copy; 2026 보험 정보 센터. 모든 정보는 참고용이며, 실제 계약은 보험약관에 따릅니다. 경기도 수원시 영통구 XXX로 XX.</p>
+  </footer>
+
+  
